@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2017FF2209DEBF00DB0B60 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C2017FD2209DEBF00DB0B60 /* Timer.cpp */; };
 		6C48A3BA21FF5B6C00964DB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3B921FF5B6C00964DB8 /* main.cpp */; };
 		6C48A3C821FF5DC000964DB8 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3C621FF5DC000964DB8 /* Controller.cpp */; };
 		6C48A3CA21FF5F5900964DB8 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3C921FF5F5900964DB8 /* Runner.cpp */; };
+		6CDBE352220C85C400ADB628 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBE351220C85C400ADB628 /* CrimeData.cpp */; };
+		6CDBE355220C85CC00ADB628 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBE354220C85CC00ADB628 /* Music.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +28,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C2017FD2209DEBF00DB0B60 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		6C2017FE2209DEBF00DB0B60 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		6C28E4C72201F95D00A3786C /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		6C28E4CA22020BEA00A3786C /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		6C48A3B621FF5B6C00964DB8 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C48A3B921FF5B6C00964DB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6C48A3C421FF5D2E00964DB8 /* 2019-01-28_0852.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2019-01-28_0852.png"; path = "../../../../../Desktop/2019-01-28_0852.png"; sourceTree = "<group>"; };
 		6C48A3C621FF5DC000964DB8 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		6C48A3C721FF5DC000964DB8 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		6C48A3C921FF5F5900964DB8 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
-		6C48A3CB21FF611200964DB8 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		6C48A3CB21FF611200964DB8 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		6CDBE34E220C855000ADB628 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../../Downloads/crime.csv; sourceTree = "<group>"; };
+		6CDBE34F220C858900ADB628 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = music.csv; path = ../../../../../Downloads/music.csv; sourceTree = "<group>"; };
+		6CDBE350220C85BE00ADB628 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
+		6CDBE351220C85C400ADB628 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
+		6CDBE353220C85C800ADB628 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Music.hpp; path = ../../../../../Downloads/Music.hpp; sourceTree = "<group>"; };
+		6CDBE354220C85CC00ADB628 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Music.cpp; path = ../../../../../Downloads/Music.cpp; sourceTree = "<group>"; };
+		6CDBE356220C85F000ADB628 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C28E4C62201F0CB00A3786C /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				6C48A3CB21FF611200964DB8 /* Node.hpp */,
+				6C28E4C72201F95D00A3786C /* LinearNode.hpp */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		6C28E4C822020BDD00A3786C /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				6C28E4CA22020BEA00A3786C /* Array.hpp */,
+				6CDBE356220C85F000ADB628 /* List.hpp */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
 		6C48A3AD21FF5B6C00964DB8 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +108,8 @@
 		6C48A3C121FF5D1600964DB8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6C48A3CB21FF611200964DB8 /* Node.h */,
+				6C28E4C822020BDD00A3786C /* Linear */,
+				6C28E4C62201F0CB00A3786C /* Nodes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +120,8 @@
 				6C48A3C621FF5DC000964DB8 /* Controller.cpp */,
 				6C48A3C721FF5DC000964DB8 /* Controller.hpp */,
 				6C48A3C921FF5F5900964DB8 /* Runner.cpp */,
+				6C2017FD2209DEBF00DB0B60 /* Timer.cpp */,
+				6C2017FE2209DEBF00DB0B60 /* Timer.hpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +137,12 @@
 		6C48A3C521FF5D3400964DB8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6CDBE354220C85CC00ADB628 /* Music.cpp */,
+				6CDBE353220C85C800ADB628 /* Music.hpp */,
+				6CDBE351220C85C400ADB628 /* CrimeData.cpp */,
+				6CDBE350220C85BE00ADB628 /* CrimeData.hpp */,
+				6CDBE34F220C858900ADB628 /* music.csv */,
+				6CDBE34E220C855000ADB628 /* crime.csv */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -163,7 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C48A3CA21FF5F5900964DB8 /* Runner.cpp in Sources */,
+				6CDBE355220C85CC00ADB628 /* Music.cpp in Sources */,
+				6CDBE352220C85C400ADB628 /* CrimeData.cpp in Sources */,
 				6C48A3BA21FF5B6C00964DB8 /* main.cpp in Sources */,
+				6C2017FF2209DEBF00DB0B60 /* Timer.cpp in Sources */,
 				6C48A3C821FF5DC000964DB8 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
