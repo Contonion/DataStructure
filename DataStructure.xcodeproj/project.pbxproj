@@ -39,6 +39,7 @@
 		6C48A3C721FF5DC000964DB8 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		6C48A3C921FF5F5900964DB8 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		6C48A3CB21FF611200964DB8 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		6CD47D322211D03E0058952F /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		6CDBE34E220C855000ADB628 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../../Downloads/crime.csv; sourceTree = "<group>"; };
 		6CDBE34F220C858900ADB628 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = music.csv; path = ../../../../../Downloads/music.csv; sourceTree = "<group>"; };
 		6CDBE350220C85BE00ADB628 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 			children = (
 				6C28E4CA22020BEA00A3786C /* Array.hpp */,
 				6CDBE356220C85F000ADB628 /* List.hpp */,
+				6CD47D322211D03E0058952F /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
