@@ -6,17 +6,17 @@
 //  Copyright © 2019 CadeJackman. All rights reserved.
 //
 #include "List.hpp"
-using namespace std;
 #ifndef List_hpp
 #define List_hpp
 #include "../Nodes/LindearNode.hpp"
+using namespace std;
 template <class Type>
 class List
 {
 protected:
     int size;
 public:
-    virtual void add(Type)
+    virtual void add(Type);
     virtual void addAtIndex(int index, Type item);
 };
 template <class Type>
@@ -35,13 +35,13 @@ public:
     void addAtIndex(int index, Type item);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
     this->end = nullptr;
     this->size = 0;
-}
+};
 LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
@@ -51,7 +51,7 @@ LinkedList<Type> :: ~LinkedList()
         delete destroyStructure;
         destroyStructure = front;
     }
-}
+};
 void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);
@@ -65,5 +65,5 @@ void LinkedList<Type> :: add(Type item)
     }
     this->end = newData;
     this->size += 1;
-}
+};
 #endif /* List_hpp */
