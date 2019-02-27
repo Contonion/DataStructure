@@ -6,8 +6,8 @@
 //  Copyright © 2019 CadeJackman. All rights reserved.
 //
 
-#ifndef Stack_h
-#define Stack_h
+#ifndef Stack_hpp
+#define Stack_hpp
 
 #include "LinkedList.hpp"
 
@@ -99,4 +99,4 @@ Type Stack<Type> :: getFromIndex(int index)
     return peek();
 }
 
-#endif /* Stack_h */
+#endif /* Stack_hpp */

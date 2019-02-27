@@ -9,7 +9,7 @@
 using namespace std;
 #ifndef LinkedList_h
 #define LinkedList_h
-tehplate <class Type>
+template <class Type>
 class LinkedList : public List<Type>
 protected:
 LinearNode<Type> * front;

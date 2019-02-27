@@ -5,10 +5,9 @@
 //  Created by Jackman, Cade on 2/7/19.
 //  Copyright © 2019 CadeJackman. All rights reserved.
 //
-#include "List.hpp"
 #ifndef List_hpp
 #define List_hpp
-#include "../Nodes/LindearNode.hpp"
+#include "../Nodes/LinearNode.hpp"
 using namespace std;
 template <class Type>
 class List
@@ -27,7 +26,7 @@ protected:
     LinearNode<Type> * end;
 public:
     LinkedList();
-    virtual ~LinkedList;
+    virtual ~LinkedList();
     int getSize() const;
     LinearNode<Type> * getFront();
     LinearNode<Type> * getEnd();
@@ -36,12 +35,14 @@ public:
     Type getFromIndex(int index);
     Type remove(int index);
 };
+template <class Type>
 LinkedList<Type> :: LinkedList()
 {
     this->front = nullptr;
     this->end = nullptr;
     this->size = 0;
 };
+template <class Type>
 LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
@@ -52,6 +53,7 @@ LinkedList<Type> :: ~LinkedList()
         destroyStructure = front;
     }
 };
+template <class Type>
 void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);

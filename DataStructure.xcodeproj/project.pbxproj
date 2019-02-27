@@ -50,7 +50,7 @@
 		6CC11D15221C5C0700B37CDA /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		6CC11D16221C5C0700B37CDA /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		6CC11D1A221C617A00B37CDA /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
-		6CC11D1C221C619C00B37CDA /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		6CC11D1C221C619C00B37CDA /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		6CD14E99221472C9005773B8 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		6CD14E9A221477EF005773B8 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		6CD14E9B221477EF005773B8 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 				6CDBE356220C85F000ADB628 /* List.hpp */,
 				6CD47D322211D03E0058952F /* LinkedList.hpp */,
 				6CD14E99221472C9005773B8 /* Queue.hpp */,
-				6CC11D1C221C619C00B37CDA /* Stack.h */,
+				6CC11D1C221C619C00B37CDA /* Stack.hpp */,
 				6C4E2D1E221EF80400E031A9 /* CircularList.hpp */,
 			);
 			path = Linear;
@@ -139,6 +139,8 @@
 				6C48A3C721FF5DC000964DB8 /* Controller.hpp */,
 				6C48A3C921FF5F5900964DB8 /* Runner.cpp */,
 				6C48A3C621FF5DC000964DB8 /* Controller.cpp */,
+				6CD14E9B221477EF005773B8 /* FileController.hpp */,
+				6CD14E9A221477EF005773B8 /* FileController.cpp */,
 				6CC11D19221C5CCA00B37CDA /* Tools */,
 			);
 			path = Controller;
@@ -169,8 +171,6 @@
 			children = (
 				6C2017FE2209DEBF00DB0B60 /* Timer.hpp */,
 				6C2017FD2209DEBF00DB0B60 /* Timer.cpp */,
-				6CD14E9B221477EF005773B8 /* FileController.hpp */,
-				6CD14E9A221477EF005773B8 /* FileController.cpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";

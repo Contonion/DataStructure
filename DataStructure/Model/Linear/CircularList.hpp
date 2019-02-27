@@ -165,7 +165,7 @@ template <class Type>
 int CircularList<Type> :: getSize() const
 {
     return this->size;
-}
+};
 
 
 
