@@ -17,55 +17,10 @@ protected:
 public:
     virtual void add(Type);
     virtual void addAtIndex(int index, Type item);
-};
-template <class Type>
-class LinkedList : public List<Type>
-{
-protected:
-    LinearNode<Type> * front;
-    LinearNode<Type> * end;
-public:
-    LinkedList();
-    virtual ~LinkedList();
-    int getSize() const;
-    LinearNode<Type> * getFront();
-    LinearNode<Type> * getEnd();
-    void add(Type item);
-    void addAtIndex(int index, Type item);
-    Type getFromIndex(int index);
-    Type remove(int index);
-};
-template <class Type>
-LinkedList<Type> :: LinkedList()
-{
-    this->front = nullptr;
-    this->end = nullptr;
-    this->size = 0;
-};
-template <class Type>
-LinkedList<Type> :: ~LinkedList()
-{
-    LinearNode<Type> * destroyStructure = front;
-    while (front != nullptr)
-    {
-        front = destroyStructure->getNextNode();
-        delete destroyStructure;
-        destroyStructure = front;
-    }
-};
-template <class Type>
-void LinkedList<Type> :: add(Type item)
-{
-    LinearNode<Type> * newData = new LinearNode<Type>(item);
-    if(this->size == 0)
-    {
-        this -> front = newData;
-    }
-    else
-    {
-        this->end->setNextNode(newData);
-    }
-    this->end = newData;
-    this->size += 1;
+    virtual Type remove(int index) = 0;
+    virtual Type getFromIndex(int index) = 0;
+    virtual int getSize() const = 0;
+    virtual LinearNode<Type> * getFront() = 0;
+    virtual LinearNode<Type> * getEnd() = 0;
 };
 #endif /* List_hpp */

@@ -12,6 +12,6 @@
 #include "../Controller/Tools/Timer.hpp"
 #include "../Model/Linear/LinkedList.hpp"
 #include "../Model/Linear/Stack.hpp"
-#include "../Model/Linear/Queue.hppS"
+#include "../Model/Linear/Queue.hpp"
 
 #endif /* LinearTester_hpp */
