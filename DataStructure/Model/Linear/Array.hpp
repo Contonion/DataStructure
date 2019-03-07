@@ -44,12 +44,14 @@ Array<Type> :: Array(const Array<Type> & toCopy)
     {
         internalArray[index] = toCopy[index];
     }
-};
+}
 template <class Type>
 Array<Type> :: ~Array()
 {
     delete [] internalArray;
-};
+}
+
+
 template <class Type>
 Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
 {

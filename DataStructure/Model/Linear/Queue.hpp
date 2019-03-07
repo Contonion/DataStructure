@@ -53,8 +53,9 @@ void Queue<Type> :: enqueue(Type item)
     }
     this->end = added;
     this->size++;
-    template <class Type>
+    
 }
+template <class Type>
 void Queue<Type> :: addAtIndex(int index, Type item)
 {
     assert(index == this->size);
@@ -73,25 +74,25 @@ Type Queue<Type> :: dequeue()
     
     Type returned = this->front->getData();
     
-    Linear<Type> * removed = this->front;
+    LinearNode<Type> * removed = this->front;
     this->front = removed->getNextNode();
     
     delete removed;
-    thos->size = this->size - 1;
+    this->size = this->size - 1;
     return returned;
 }
 template <class Type>
 Type Queue<Type> :: remove(int index)
 {
     assert(index == 0);
-    deturn dequeue();
+    return dequeue();
 }
 template <class Type>
 void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
-        cout << dequeue << endl;
+        cout << dequeue() << endl;
     }
 }
 template <class Type>

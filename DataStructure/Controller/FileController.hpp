@@ -15,10 +15,10 @@
 #include <vector>
 //#include "../Model/Linear/Array.hpp"
 #include "../Model/Linear/LinkedList.hpp"
-#include "../Model/NonLinear/BinarySearchTree.hpp"
+//#include "../Model/NonLinear/BinarySearchTree.hpp"
 
 #include "../Resources/CrimeData.hpp"
-#include "../Resources/Music.hpp/"
+#include "../Resources/Music.hpp"
 #include <stdio.h>
 using namespace std;
 class FileController
@@ -26,8 +26,7 @@ class FileController
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
     static LinkedList<CrimeData> readDataToList(string filename);
-    static BinarySearchTree<CrimeData> readDataToTree(string filename);
     
     
-}
+};
 #endif /* FileController_hpp */

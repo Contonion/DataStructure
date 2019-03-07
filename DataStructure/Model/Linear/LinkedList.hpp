@@ -156,7 +156,7 @@ LinearNode<Type> * LinkedList<Type> :: getEnd()
     return this->end;
 }
 template <class Type>
-LinearNode<Type> * LinkedList<Type> :: getFront();
+LinearNode<Type> * LinkedList<Type> :: getFront()
 {
     return this->front;
 }
