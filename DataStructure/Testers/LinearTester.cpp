@@ -31,7 +31,7 @@ void LinearTester :: testVsSTL()
     musicSTL.stopTimer();
     
     musicOOP.startTimer();
-    LinkedList<Music> musicList = FileController : musicDataToList("/Users/cjac5770/Documents/C++Workspace/DataStructure/DataStructure/Resources/crime.csv");
+    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/cjac5770/Documents/C++Workspace/DataStructure/DataStructure/Resources/crime.csv");
     musicOOP.stopTimer();
     
     cout << "This is the STL: " << endl;

@@ -20,6 +20,7 @@ private:
     int size;
 public:
     Array<Type>(int size);
+    ~Array<Type>();
     Array<Type>(const Array<Type> & toCopy);
     Array<Type> & operator = (const Array<Type> & toReplace);
     Type& operator [] (int index);
