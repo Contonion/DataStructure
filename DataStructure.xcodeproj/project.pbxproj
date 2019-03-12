@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6C2017FF2209DEBF00DB0B60 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C2017FD2209DEBF00DB0B60 /* Timer.cpp */; };
-		6C48A3BA21FF5B6C00964DB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3B921FF5B6C00964DB8 /* main.cpp */; };
 		6C48A3C821FF5DC000964DB8 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3C621FF5DC000964DB8 /* Controller.cpp */; };
 		6C48A3CA21FF5F5900964DB8 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48A3C921FF5F5900964DB8 /* Runner.cpp */; };
 		6CC11D17221C5C0700B37CDA /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CC11D13221C5C0600B37CDA /* Music.cpp */; };
@@ -36,7 +35,6 @@
 		6C28E4C72201F95D00A3786C /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		6C28E4CA22020BEA00A3786C /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		6C48A3B621FF5B6C00964DB8 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C48A3B921FF5B6C00964DB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6C48A3C621FF5DC000964DB8 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		6C48A3C721FF5DC000964DB8 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		6C48A3C921FF5F5900964DB8 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				6C48A3C321FF5D2700964DB8 /* Diagrams */,
 				6C48A3C221FF5D1D00964DB8 /* Controller */,
 				6C48A3C121FF5D1600964DB8 /* Model */,
-				6C48A3B921FF5B6C00964DB8 /* main.cpp */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -245,7 +242,6 @@
 				6CC11D1B221C617A00B37CDA /* Array.cpp in Sources */,
 				6CC11D17221C5C0700B37CDA /* Music.cpp in Sources */,
 				6CD14EA022147E8F005773B8 /* LinearTester.cpp in Sources */,
-				6C48A3BA21FF5B6C00964DB8 /* main.cpp in Sources */,
 				6C2017FF2209DEBF00DB0B60 /* Timer.cpp in Sources */,
 				6CD14E9C221477EF005773B8 /* FileController.cpp in Sources */,
 				6C48A3C821FF5DC000964DB8 /* Controller.cpp in Sources */,
