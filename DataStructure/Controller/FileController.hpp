@@ -28,6 +28,6 @@ public:
     static vector<Music> musicDataToVector(string filename);
     static LinkedList<CrimeData> readDataToList(string filename);
     static LinkedList<Music> musicDataToList(string filename);
-};
+};//
 
 #endif /* FileController_hpp */

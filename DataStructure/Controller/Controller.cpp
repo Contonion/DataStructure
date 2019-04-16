@@ -10,6 +10,7 @@
 void Controller :: start()
 {
     cout << "Welcome to the Data Structures App." << endl;
+    testLinear();
     usingNodes();
 }
 void Controller :: usingNodes()
@@ -20,6 +21,7 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
+    
 }
 
 void Controller :: testLinear()
